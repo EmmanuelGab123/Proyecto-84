@@ -35,19 +35,19 @@ function my_keydown(e)
 		document.getElementById("d1").innerHTML="You pressed alphabet key";
 		console.log("Alphabet key")
 		}
-		if(keyPressed >=48 && keyPressed<=57)
+		else if(keyPressed >=48 && keyPressed<=57)
 		{
 		numberkey();
 		document.getElementById("d1").innerHTML="You pressed number key";
 		console.log("Number key")
 		}
-		if(keyPressed >=37 && keyPressed<=40)
+		else if(keyPressed >=37 && keyPressed<=40)
 		{
 		arrowkey();
 		document.getElementById("d1").innerHTML="You pressed arrow key";
 		console.log("Arrow key")
 		}
-		if((keyPressed ==17)|| (keyPressed ==18|| keyPressed ==27))
+		else if((keyPressed ==17)|| (keyPressed ==18|| keyPressed ==27))
 		{
 		specialkey();
 		document.getElementById("d1").innerHTML="You pressed special key";
